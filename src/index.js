@@ -15,6 +15,7 @@ ReactDOM.render(
         <Route index element = {< Home />} />
         <Route path="cart" element={< Cart />} />
         <Route path="order" element={< Order />} />
+        <Route path="*" element={< Home />} />
       </Route>
     </Routes>
   </BrowserRouter>,
