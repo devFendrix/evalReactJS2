@@ -1,0 +1,38 @@
+.catalog {
+    display: flex;
+    flex-flow: row wrap;
+}
+.catalog .catalog-title {
+    flex: 1 100%;
+    margin: 3%;
+}
+
+.catalog .cart-item {
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin: 1%;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid #DCDCDC;
+}
+
+.catalog .cart-item .cart-item-title,
+.catalog .cart-item .cart-item-description,
+.catalog .cart-item .cart-item-add {
+    flex: 1 100%;
+    padding: 1%;
+}
+
+.catalog .cart-item .cart-item-title {
+    background-color: #DCDCDC;
+}
+
+.catalog .cart-item .cart-item-add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DCDCDC;
+}
+.catalog .cart-item .cart-item-add span {
+    font-weight: bold;
+}
